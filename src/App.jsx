@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-      <h1>React Donation Campaign</h1>
       <Header />
       <Outlet />
     </>
