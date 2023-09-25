@@ -1,8 +1,14 @@
+import { useNavigate } from 'react-router-dom';
 import image from '../../assets/team.jpg'
 
 const DonationItem = () => {
+    const navigate = useNavigate();
+    const handleGoToDonationDetails = () => {
+        navigate(`donation-details/1`)
+        // navigate(`donation-details/${id}`)
+    }
     return (
-        <div className='rounded-lg bg-[rgba(0,82,255,0.15)]'>
+        <div onClick={handleGoToDonationDetails} className='rounded-lg bg-[rgba(0,82,255,0.15)]'>
             <img className='rounded-t-lg' src={image} alt="donation  image" />
             <div className='p-4 text-[#0052ff]'>
                 <button className='bg-[rgba(0,82,255,0.20)] font-medium text-sm px-2 py-1 rounded-[4px]'>Health</button>
