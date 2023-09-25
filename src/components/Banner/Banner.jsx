@@ -11,7 +11,7 @@ const Banner = () => {
             className="input input-bordered join-item focus:outline-0"
             placeholder="Search Category"
           />
-          <button className="btn join-item">Search</button>
+          <button className="btn join-item bg-[#FF444A] hover:bg-[#FF444A] border-[#FF444A] hover:border-[#FF444A] text-white">Search</button>
         </div>
       </div>
       </div>
