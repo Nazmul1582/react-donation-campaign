@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/k6hWNYY/Health.png",
+      "title": "Medical Supplies for Clinics",
+      "category": "Health",
+      "category_bg": "rgba(0,82,255,0.20)",
+      "card_bg": "rgba(0,82,255,0.15)",
+      "text_color": "#0052FF",
+      "description": "Donate essential medical supplies to clinics serving vulnerable populations.",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/gVs4S11/Education.png",
+      "title": "Education for Underserved Communities",
+      "category": "Education",
+      "category_bg": "rgba(255,68,74,0.20)",
+      "card_bg": "rgba(255,68,74,0.15)",
+      "text_color": "#FF444A",
+      "description": "Support educational programs that bring quality education to underserved areas.",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/6DyhTJj/Clothing.png",
+      "title": "Clothing for Homeless Individuals",
+      "category": "Clothing",
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F",
+      "description": "Provide clothing and warmth to homeless individuals in our city.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/Hzh5Rf3/Food.png",
+      "title": "Food for Families in Need",
+      "category": "Food",
+      "category_bg": "#27AE60",
+      "card_bg": "#E6E6E6",
+      "text_color": "#333333",
+      "description": "Support our mission to ensure no family goes hungry in our community.",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/gVs4S11/Education.png",
+      "title": "Healthcare Access for All",
+      "category": "Education",
+      "category_bg": "rgba(255,68,74,0.20)",
+      "card_bg": "rgba(255,68,74,0.15)",
+      "text_color": "#FF444A",
+      "description": "Provide access to quality healthcare services for underserved populations.",
+      "price": 100
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/6DyhTJj/Clothing.png",
+      "title": "Educational Resources for Schools",
+      "category": "Clothing",
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F",
+      "description": "Equip schools with educational resources to enhance the learning experience.",
+      "price": 200
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/Hzh5Rf3/Food.png",
+      "title": "Clothing Drive for Children",
+      "category": "Food",
+      "category_bg": "#F1C40F",
+      "card_bg": "#E6E6E6",
+      "text_color": "#333333",
+      "description": "Collect clothing for children in need, ensuring they stay warm and comfortable.",
+      "price": 300
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/k6hWNYY/Health.png",
+      "title": "Emergency Food Relief",
+      "category": "Health",
+      "category_bg": "rgba(0,82,255,0.20)",
+      "card_bg": "rgba(0,82,255,0.15)",
+      "text_color": "#0052FF",
+      "description": "Provide emergency food relief to individuals and families facing hunger crises.",
+      "price": 400
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/gVs4S11/Education.png",
+      "title": "Medical Supplies for Clinics",
+      "category": "Education",
+      "category_bg": "rgba(255,68,74,0.20)",
+      "card_bg": "rgba(255,68,74,0.15)",
+      "text_color": "#FF444A", 
+      "description": "Donate essential medical supplies to clinics serving vulnerable populations.",
+      "price": 100
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/6DyhTJj/Clothing.png",
+      "title": "Education for Underserved Communities",
+      "category": "Clothing",
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F",
+      "description": "Support educational programs that bring quality education to underserved areas.",
+      "price": 200
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/Hzh5Rf3/Food.png",
+      "title": "Clothing for Homeless Individuals",
+      "category": "Food",
+      "category_bg": "rgba(248,113,71,0.20)",
+      "card_bg": "rgba(248,113,71,0.15)",
+      "text_color": "#F87147",
+      "description": "Provide clothing and warmth to homeless individuals in our city.",
+      "price": 300
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/k6hWNYY/Health.png",
+      "title": "Food for Families in Need",
+      "category": "Health",
+      "category_bg": "rgba(0,82,255,0.20)",
+      "card_bg": "rgba(0,82,255,0.15)",
+      "text_color": "#0052FF",
+      "description": "Support our mission to ensure no family goes hungry in our community.",
+      "price": 400
+    }
+  ]
+  
