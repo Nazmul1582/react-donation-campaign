@@ -1,4 +1,5 @@
 import DonationItem from "../DonationItem/DonationItem";
+import PropTypes from 'prop-types'
 
 const DonationList = ({donations}) => {
 
@@ -14,5 +15,9 @@ const DonationList = ({donations}) => {
     </section>
   );
 };
+
+DonationList.propTypes = {
+  donations: PropTypes.array
+}
 
 export default DonationList;

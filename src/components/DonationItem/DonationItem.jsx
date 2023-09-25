@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import {PropTypes} from 'prop-types'
 
 const DonationItem = ({donation}) => {
     const {id, title, category, picture, card_bg, category_bg, text_color} = donation;
@@ -21,5 +22,9 @@ const DonationItem = ({donation}) => {
         </div>
     );
 };
+
+DonationItem.propTypes = {
+    donation: PropTypes.object
+  }
 
 export default DonationItem;
