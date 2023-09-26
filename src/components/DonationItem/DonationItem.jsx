@@ -17,7 +17,7 @@ const DonationItem = ({donation}) => {
             <div className="p-4" style={{color: `${text_color}`}}>
                 {/* <button className={`bg-[${category_bg}] font-medium text-sm px-2 py-1 rounded-[4px]`}>{category}</button> */}
                 <button className="font-medium text-sm px-2 py-1 rounded-[4px]" style={{backgroundColor: `${category_bg}`}}>{category}</button>
-                <h3 className='font-semibold text-xl'>{title}</h3>
+                <h3 className='font-semibold md:text-xl'>{title}</h3>
             </div>
         </div>
     );
