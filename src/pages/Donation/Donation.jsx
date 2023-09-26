@@ -21,6 +21,7 @@ const Donation = () => {
   return (
     <section>
       <div className="container mx-auto pt-20 pb-10">
+        {!donated.length && <p className="font-bold text-2xl text-center">There are not any donation here.</p>}
         <div className="grid grid-cols-2 gap-6">
           {seeAll ? donated.map((donation) => (
             <StoredDonationItem key={donation.id} donation={donation} />

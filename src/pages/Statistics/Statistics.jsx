@@ -1,13 +1,14 @@
 import { Cell, Pie, PieChart } from "recharts";
+import { getStoredDonation } from "../../localStorage/localStorage";
 
 const Statistics = () => {
+  const storedDonation = getStoredDonation();
+  const totalDonation = 12 - storedDonation.length;
   const data = [
-    { name: "Group A", value: 67 },
-    { name: "Group B", value: 33 },
+    { name: "Total donation", value: totalDonation },
+    { name: "stored donation", value: storedDonation.length },
   ];
-
   const COLORS = ["#FF444A", "#00C49F"];
-
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
     cx,
@@ -45,7 +46,7 @@ const Statistics = () => {
               cy="50%"
               labelLine={false}
               label={renderCustomizedLabel}
-              outerRadius={80}
+              outerRadius={180}
               fill="#8884d8"
               dataKey="value"
             >
@@ -58,6 +59,16 @@ const Statistics = () => {
             </Pie>
           </PieChart>
         </div>
+          <div className="flex justify-center gap-14 text-lg mt-3">
+            <div className="flex items-center gap-2">
+              <p>Your Donation</p>
+              <p className="h-3 w-24 bg-[#00C49F]"></p>
+            </div>
+            <div className="flex items-center gap-2">
+              <p>Your Donation</p>
+              <p className="h-3 w-24 bg-[#FF444A]"></p>
+            </div>
+          </div>
       </div>
     </section>
   );
