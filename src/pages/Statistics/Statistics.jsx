@@ -59,7 +59,7 @@ const Statistics = () => {
             </Pie>
           </PieChart>
         </div>
-          <div className="flex justify-center gap-14 text-lg mt-3">
+          <div className="flex flex-col items-center md:flex-row justify-center gap-5 md:gap-14 text-lg mt-3">
             <div className="flex items-center gap-2">
               <p>Your Donation</p>
               <p className="h-3 w-24 bg-[#00C49F]"></p>

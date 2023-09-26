@@ -7,7 +7,7 @@ const StoredDonationItem = ({ donation }) => {
     // <div className={`flex rounded-lg bg-[${card_bg}]`}>
     <div className="flex rounded-lg" style={{ backgroundColor: `${card_bg}` }}>
       <img
-        className="rounded-s-lg w-52 object-cover"
+        className="rounded-s-lg w-36 md:w-52 object-cover"
         src={picture}
         alt="donation  image"
       />
