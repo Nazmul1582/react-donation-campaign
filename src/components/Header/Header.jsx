@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header>
       <div className="container mx-auto py-5">
-        <div className="flex justify-between items-center">
-          <img className="w-36" src={logo} alt="logo" />
+        <div className="flex justify-between items-center gap-2">
+          <img className="w-28 md:w-36" src={logo} alt="logo" />
           <nav>
-            <ul className="flex gap-12 text-lg">
+            <ul className="flex gap-5 md:gap-12 md:text-lg">
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
