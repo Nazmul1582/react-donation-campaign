@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 
 const Header = () => {
@@ -6,7 +6,9 @@ const Header = () => {
     <header>
       <div className="container mx-auto py-5">
         <div className="flex justify-between items-center gap-2">
-          <img className="w-28 md:w-36" src={logo} alt="logo" />
+          <Link to="/">
+            <img className="w-28 md:w-36" src={logo} alt="logo" />
+          </Link>
           <nav>
             <ul className="flex gap-5 md:gap-12 md:text-lg">
               <li>

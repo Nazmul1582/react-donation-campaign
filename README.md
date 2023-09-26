@@ -20,5 +20,5 @@
 7. installed sweetalert and show alert when user donate and updated donation description.
 8. added functionality for save donation to localStorage and showed sweetalert
 9. loaded data from localStorage and displayed data in the donation page
-10. hen localStorage data will be more than 4, see all button displayed and show more and less data by clicking
+10. when localStorage data will be more than 4, see all button displayed and show more and less data by clicking
 
