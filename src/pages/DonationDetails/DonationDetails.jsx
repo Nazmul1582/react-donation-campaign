@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 const DonationDetails = () => {
   const donations = useLoaderData()
@@ -12,6 +13,8 @@ const DonationDetails = () => {
     borderColor: text_color
   }
 
+  const handleDonate = () => swal("Good job!", "Your donation successfully done!", "success");
+
   return (
     <section>
       <div className="container mx-auto pt-20 pb-24">
@@ -20,7 +23,7 @@ const DonationDetails = () => {
             <img className="rounded-lg w-full" src={picture} alt="" />
             <div className="bg-black h-32 absolute bottom-0 right-0 left-0 opacity-70 rounded-b-lg"></div>
             <div className="absolute bottom-9">
-              <button className={`btn ml-9 text-white capitalize hover:bg-[${text_color}] hover:border-[${text_color}]`} style={buttonStyle}>{`Donate $${price}`}</button>
+              <button onClick={handleDonate} className={`btn ml-9 text-white capitalize hover:bg-[${text_color}] hover:border-[${text_color}]`} style={buttonStyle}>{`Donate $${price}`}</button>
             </div>
           </div>
           <div className="py-14">
