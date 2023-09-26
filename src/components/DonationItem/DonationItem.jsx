@@ -12,7 +12,7 @@ const DonationItem = ({donation}) => {
     return (
         // <div onClick={handleGoToDonationDetails} className={`rounded-lg bg-[${card_bg}]`}>
         <div onClick={handleGoToDonationDetails} className="rounded-lg" style={{backgroundColor: `${card_bg}`}}>
-            <img className='rounded-t-lg' src={picture} alt="donation image" />
+            <img className='rounded-t-lg w-full' src={picture} alt="donation image" />
             {/* <div className={`p-4 text-[${text_color}]`}> */}
             <div className="p-4" style={{color: `${text_color}`}}>
                 {/* <button className={`bg-[${category_bg}] font-medium text-sm px-2 py-1 rounded-[4px]`}>{category}</button> */}
