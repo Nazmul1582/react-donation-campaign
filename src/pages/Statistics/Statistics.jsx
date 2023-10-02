@@ -39,14 +39,14 @@ const Statistics = () => {
     <section>
       <div className="container mx-auto pt-20 pb-24">
         <div className="flex items-center justify-center">
-          <PieChart width={400} height={400}>
+          <PieChart width={360} height={400}>
             <Pie
               data={data}
               cx="50%"
               cy="50%"
               labelLine={false}
               label={renderCustomizedLabel}
-              outerRadius={180}
+              outerRadius={160}
               fill="#8884d8"
               dataKey="value"
             >
